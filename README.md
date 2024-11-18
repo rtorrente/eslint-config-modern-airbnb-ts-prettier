@@ -1,6 +1,9 @@
-# eslint-config-airbnb-ts-prettier
+# eslint-config-modern-airbnb-ts-prettier
 
+[![npm version][npm-image]][npm-url]
+[![Check Projects](https://github.com/rtorrente/eslint-config-modern-airbnb-ts-prettier/actions/workflows/check.yml/badge.svg)](https://github.com/rtorrente/eslint-config-modern-airbnb-ts-prettier/actions/workflows/check.yml)
 ![License][license]
+
 
 A modern, updated fork of [`eslint-config-airbnb-typescript-prettier`](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier), combining Airbnb's ESLint rules with TypeScript and Prettier support.
 
@@ -16,17 +19,17 @@ The original repository appears unmaintained, with outdated dependencies and com
 
 
 # How to use
-Install `typescript`, `eslint` and `prettier`, `eslint-config-airbnb-ts-prettier` and put it into your `.eslintrc.js`.
+Install `typescript`, `eslint` and `prettier`, `eslint-config-modern-airbnb-ts-prettier` and put it into your `.eslintrc.js`.
 
 ```bash
-$ npm install typescript eslint prettier eslint-config-airbnb-ts-prettier --save-dev
+$ npm install typescript eslint prettier eslint-config-modern-airbnb-ts-prettier --save-dev
 ```
 
 `.eslintrc.js`
 
 ```js
 module.exports = {
-  extends: "airbnb-ts-prettier"
+  extends: "modern-airbnb-ts-prettier"
 };
 ```
 
@@ -42,6 +45,6 @@ module.exports = {
 
 Open source [licensed as MIT](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/blob/master/LICENSE).
 
-[npm-image]: https://img.shields.io/npm/v/eslint-config-airbnb-typescript-prettier.svg
-[npm-url]: https://npmjs.org/package/eslint-config-airbnb-typescript-prettier
-[license]: https://img.shields.io/npm/l/eslint-config-airbnb-typescript-prettier.svg
+[npm-image]: https://img.shields.io/npm/v/eslint-config-modern-airbnb-ts-prettier.svg
+[npm-url]: https://www.npmjs.com/package/eslint-config-modern-airbnb-ts-prettier
+[license]: https://img.shields.io/npm/l/eslint-config-modern-airbnb-ts-prettier.svg

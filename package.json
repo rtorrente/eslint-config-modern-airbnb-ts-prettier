@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-modern-airbnb-ts-prettier",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Airbnb's ESLint config with TypeScript and Prettier support",
   "main": "index.js",
   "scripts": {
@@ -29,14 +29,14 @@
   "homepage": "https://github.com/rtorrente/eslint-config-modern-airbnb-ts-prettier#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.14.0",
-    "@typescript-eslint/parser": "^8.14.0",
+    "@typescript-eslint/parser": "^8.45.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^9.1.2",
     "eslint-import-resolver-typescript": "^4.4.4",
-    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.3.0"
   },
   "peerDependencies": {
